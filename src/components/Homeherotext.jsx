@@ -1,13 +1,10 @@
 import React from "react";
+import MaskText from "./MaskText";
 
 const Homeherotext = () => {
   return (
     <div className="main h-screen  w-full py-15 flex flex-col justify-between items-center overflow-hidden">
-      <h1 className=" text-center text-[3vh] p-4">
-        Crafting a new paradigm of
-        <br />
-        healthcare, one that is
-      </h1>
+      <MaskText lines={["Crafting a new paradigm of", "healthcare, one that is"]} />
 
       <div className="lines py-5 w-full text-[9vh] font-[fmedium] flex flex-col text-center leading-20 translate-y-1.5">
         <div className=" line1 flex items-center justify-center gap-4    translate-x-120">

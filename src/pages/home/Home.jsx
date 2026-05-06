@@ -73,35 +73,8 @@ const Home = () => {
         scale: 30,
       });
 
-      // tl.from(".line1", {
-      //  scrollTrigger: {
-      //     trigger: "body",
-      //     // markers:true,
-      //     start:"50% 57%",
-      //     scrub: 2,
-      //   },
-      //   x: 1000,
-      //   // duration:0.5,
-      //   power: "none" ,
-      // })
 
-      // tl.from(".line2", {
-      //  scrollTrigger: {
-      //     trigger: ".line2",
-      //     markers:true,
-      //     start:"top 10%",
-      //     // end:"top top",
-      //     scrub: 2,
-      //   },
-      //   x: -1000,
-      //   power: "none",
-      // })
 
-      // gsap.from(".home .top",{
-      //   duration:2,
-      //   opacity:0,
-      //   repeat:-1
-      // })
     };
 
     const home2animation = () => {
