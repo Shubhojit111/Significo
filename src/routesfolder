@@ -1,0 +1,9 @@
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/solutions' element={<Solutions />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/insights' element={<Insights />} />
+        <Route path='/team' element={<Team />} />
+        <Route path='/careers' element={<Careers />} />
+      </Routes>

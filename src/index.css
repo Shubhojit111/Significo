@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+
+:root{
+    --clip:100%;
+}
+
+
+@font-face{
+    font-family: 'fLight';
+    src:url('Fonts/Neue Light.woff')
+}
+
+@font-face{
+    font-family: 'fsatohi';
+    src:url('../public/Fonts/659dbdfd5a080be8d3483173_Satoshi-Variable.ttf')
+}
+
+@font-face{
+    font-family: 'fMedium';
+    src:url('Fonts/Neue Medium.woff')
+}
+
+
+/* html,body{
+    font-family: fsatoshi;
+} */
+
+/* 
+
+*[theme="purple"] {
+    background-color:purple;
+    
+}
+
+*[theme="purple"] .section{
+    color:#fff;
+    
+} 
+
+*/
+
+body{
+    background-color:#111;
+    color:#fff;
+}
+
+.home img{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    /* background-size: cover; */
+}
+
+
+.video{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.top{
+    color:aqua;
+}
+
+.home3, .home3 > div {
+  background-color: #EF9D71;
+}
